@@ -55,7 +55,6 @@ body>footer {
 @media(max-width: 680px) {
 	body>header { margin-left: calc(10px + var(--mainpadd)); margin-right: calc(10px + var(--mainpadd)); }
 	.head { margin-left: 10px; margin-right: 10px; }
-	.loadlink { margin-left: 10px; margin-right: 10px; }
 	.addpostlink { width: 0; height: 0; }
 	.addposttext { visibility: hidden; width: 0; height: 0; }
 	body>footer { flex-direction: column; align-items: center; gap: 20px; }
