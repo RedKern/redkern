@@ -53,14 +53,14 @@ body>footer {
 #notedate2 { display: none; }
 
 @media(max-width: 680px) {
+	body>header { margin-left: calc(20px + var(--mainpadd)); margin-right: calc(20px + var(--mainpadd)); }
+	.head { margin-left: 20px; margin-right: 20px; }
 	.addpostlink { width: 0; height: 0; }
 	.addposttext { visibility: hidden; width: 0; height: 0; }
 	body>footer { flex-direction: column; align-items: center; gap: 20px; }
 }
 @media(max-width: 500px) {
 	body { --mainpadd: 10px; }
-	body>header { margin-left: calc(20px + var(--mainpadd)); margin-right: calc(20px + var(--mainpadd)); }
-	.head { margin-left: 20px; margin-right: 20px; }
 	.headname { visibility: hidden; width: 0; height: 0; }
 	#notedate1 { display: none; }
 	#notedate2 { display: inline-block; }
