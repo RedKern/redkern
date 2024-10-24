@@ -1,0 +1,67 @@
+@font-face {
+	font-family: "Inter";
+	src:
+		local("Inter"), 
+		url("../fonts/Inter-VariableFont.ttf")
+		format("truetype");
+		font-weight: 500;
+}
+
+body {
+	font-family: "Inter";
+	font-style: normal;
+
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px;
+	min-width: 320px;
+
+	--mainpadd: 30px;
+}
+
+body>header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px 0;
+	align-items: center;
+
+	margin-left: var(--mainpadd);
+	margin-right: var(--mainpadd);
+}
+
+body>main {
+	margin-left: var(--mainpadd);
+	margin-right: var(--mainpadd);
+}
+
+body>footer {
+	max-width: 1200px;
+	min-width: 320px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	margin-left: var(--mainpadd);
+	margin-right: var(--mainpadd);
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+#notedate2 { display: none; }
+
+@media(max-width: 680px) {
+	.addpostlink { width: 0; height: 0; }
+	.addposttext { visibility: hidden; width: 0; height: 0; }
+	body>footer { flex-direction: column; align-items: center; gap: 20px; }
+}
+@media(max-width: 500px) {
+	body { --mainpadd: 10px; }
+	.headname { visibility: hidden; width: 0; height: 0; }
+	#notedate1 { display: none; }
+	#notedate2 { display: inline-block; }
+	/*.notelist { gap: 10px; }*/
+	.notelink { visibility: hidden; }
+}
