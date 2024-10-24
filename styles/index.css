@@ -52,7 +52,7 @@ body>footer {
 
 #notedate2 { display: none; }
 
-@media(max-width: 680px) {
+@media(max-width: 684px) {
 	body>header { margin-left: calc(10px + var(--mainpadd)); margin-right: calc(10px + var(--mainpadd)); }
 	.head { margin-left: 10px; margin-right: 10px; }
 	.addpostlink { width: 0; height: 0; }
