@@ -1,0 +1,40 @@
+.logolink {
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: #181818;
+}
+
+.logo {
+	position: relative;
+	display: inline-block;
+
+	width: 40px;
+	height: 40px;
+}
+
+.logorect {
+	position: absolute;
+	box-sizing: border-box;
+	border: 4px solid #A6C81E;
+	border-radius: 6px;
+
+	width: 30px;
+	height: 30px;
+}
+
+.headname {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.navlink {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #838383;
+}
